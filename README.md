@@ -12,16 +12,31 @@ git checkout CHECK_POINT_TITLE
 
 ## 0_SKELETON
 
-In these chapter we are going to create a empty smart contract and try to understand the following concepts: - Solidity version - Constructor - Contract address - Sender address
+In these chapter we are going to create a empty smart contract and try to understand the following concepts:
+
+-   Solidity version
+-   Constructor
+-   Contract address
+-   Sender address
 
 ## 1_STORE_DATA
 
-In these chapter we start to store some data on the smart contract and retrieve these data: - Basic data types (int, uint, address, bool) - Constants - Control structures (if, for, while, break, ternary operator)
+In these chapter we start to store some data on the smart contract and retrieve these data:
+
+-   Basic data types (int, uint, address, bool)
+-   Constants
+-   Control structures (if, for, while, break, ternary operator)
 
 ## 2_MODIFIERS
 
-One of the most important concepts on the solidity is control the access to some of the functionalities. - Function types (view, pure, payable, modifier, fallback) - modifier
+One of the most important concepts on the solidity is control the access to some of the functionalities.
+
+-   Function types (view, pure, payable, modifier, fallback)
+-   modifier
 
 ## 3_ADVANCED_STORE_DATA
 
-In these chapter we are going to learn how create complex data structures and how to use: - Advanced data types (array, struct, mapping) - Control advanced data type (instantiation)
+In these chapter we are going to learn how create complex data structures and how to use:
+
+-   Advanced data types (array, struct, mapping)
+-   Control advanced data type (instantiation)
