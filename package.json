@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/jasmine": "^3.6.6",
+    "@types/node": "^14.14.33"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "name": "workshop_erc20",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lales12/workshop_erc20.git",
+  "author": "lales120 <alexflores120@gmail.com>",
+  "license": "MIT"
+}
