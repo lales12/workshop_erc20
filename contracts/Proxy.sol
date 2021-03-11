@@ -8,10 +8,12 @@ contract Proxy {
     constructor() public {
     }
 
-    function deployNewContract()
+    function deployNewContract(
+        string memory ownerName
+    )
         public
     {
-        ERC20 deployedContract = new ERC20();
+        ERC20 deployedContract = new ERC20(ownerName);
 
         erc20Address = address(deployedContract);
     }
