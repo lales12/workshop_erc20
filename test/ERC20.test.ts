@@ -33,8 +33,8 @@ contract('ERC 20 contract', (accounts) => {
         assert.equal(sender, proxyContract.address);
         assert.equal(origin, deployer);
 
-        This must fail
-        assert.equal(sender, proxyContract.address);
-        assert.equal(origin, deployer);
+        // This must fail
+        // assert.equal(origin, proxyContract.address);
+        // assert.equal(sender , deployer);
     });
 });
